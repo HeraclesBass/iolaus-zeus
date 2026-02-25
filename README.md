@@ -14,7 +14,7 @@ Dual-interface AI platform combining a CLI agent (Iolaus) with a web-based comma
                     ┌─────────────┴───────────────┐
                     │     Express + node-pty       │
                     │   tmux session persistence   │
-                    │      Port 8096               │
+                    │   WebSocket + REST API        │
                     └─────────────┬───────────────┘
                                   │
         ┌─────────────────────────┼─────────────────────────┐
@@ -23,7 +23,7 @@ Dual-interface AI platform combining a CLI agent (Iolaus) with a web-based comma
 │  Iolaus Brain │   │   Platform Services     │   │  Observability  │
 │  (FastAPI)    │   │   44 containers         │   │  Stack          │
 │  AI cognitive │   │   12 frameworks         │   │  Loki/Grafana   │
-│  Port 8083    │   │   Ports 3000-9200       │   │  Prometheus     │
+│  AI cognitive │   │   Multi-port mesh       │   │  Prometheus     │
 └───────────────┘   └─────────────────────────┘   └─────────────────┘
 ```
 
@@ -73,13 +73,13 @@ service:health     → Platform-wide health events
 
 ## Service Map
 
-| Service | Port | Framework | Purpose |
-|---------|------|-----------|---------|
-| Zeus Terminal | 8096 | Express + xterm.js | Web terminal interface |
-| Iolaus Brain | 8083 | FastAPI | AI cognitive backend |
-| Iolaus Frontend | 8084 | Nginx | Chat interface |
-| Command Center | 8107 | Flask + React | Platform monitoring |
-| Portfolio Gateway | 8090 | Node.js | Routing + auth |
+| Service | Framework | Purpose |
+|---------|-----------|---------|
+| Zeus Terminal | Express + xterm.js | Web terminal interface |
+| Iolaus Brain | FastAPI | AI cognitive backend |
+| Iolaus Frontend | Nginx | Chat interface |
+| Command Center | Flask + React | Platform monitoring |
+| Portfolio Gateway | Node.js | Routing + auth |
 
 ## Related Projects
 

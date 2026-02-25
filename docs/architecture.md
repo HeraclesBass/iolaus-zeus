@@ -89,8 +89,8 @@ services:
   iolaus-brain:
     build: ./iolaus-brain
     network_mode: host
-    ports:
-      - "8083:8083"
+    environment:
+      - PORT=${IOLAUS_PORT:-8000}
 
 # Zeus Terminal runs as a systemd service
 # for direct tmux process management
