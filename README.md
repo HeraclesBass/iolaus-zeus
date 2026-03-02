@@ -1,6 +1,6 @@
 # Iolaus + Zeus
 
-Dual-interface AI platform combining a CLI agent (Iolaus) with a web-based command center (Zeus Terminal). Event-driven microservice architecture with real-time WebSocket communication across 44+ services.
+Dual-interface AI platform combining a CLI agent (Iolaus) with a web-based command center (Zeus Terminal). Event-driven microservice architecture with real-time WebSocket communication across 35 projects and 75+ containers.
 
 ## Architecture
 
@@ -21,7 +21,7 @@ Dual-interface AI platform combining a CLI agent (Iolaus) with a web-based comma
         │                         │                         │
 ┌───────┴───────┐   ┌────────────┴────────────┐   ┌────────┴────────┐
 │  Iolaus Brain │   │   Platform Services     │   │  Observability  │
-│  (FastAPI)    │   │   44 containers         │   │  Stack          │
+│  (FastAPI)    │   │   75+ containers        │   │  Stack          │
 │  AI cognitive │   │   12 frameworks         │   │  Loki/Grafana   │
 │  AI cognitive │   │   Multi-port mesh       │   │  Prometheus     │
 └───────────────┘   └─────────────────────────┘   └─────────────────┘
@@ -38,7 +38,7 @@ The AI cognitive backend powering intelligent command-line interactions.
 - Context-aware assistance across the platform
 - Service health analysis and troubleshooting
 - Multi-step task decomposition and execution
-- Integration with 89 specialized agents
+- Integration with 104 specialized agents
 
 ## Zeus Terminal (Web Interface)
 
