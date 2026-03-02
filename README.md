@@ -1,6 +1,6 @@
 # Iolaus + Zeus
 
-Dual-interface AI platform combining a CLI agent (Iolaus) with a web-based command center (Zeus Terminal). Event-driven microservice architecture with real-time WebSocket communication across 35 projects and 75+ containers.
+Dual-interface AI platform combining a CLI agent (Iolaus) with a web-based command center (Zeus Terminal). Event-driven microservice architecture with real-time WebSocket communication across 30+ projects and 75+ containers.
 
 ## Architecture
 
