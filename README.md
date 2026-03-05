@@ -83,9 +83,9 @@ service:health     → Platform-wide health events
 
 ## Related Projects
 
-- [claude-orchestrator-showcase](https://github.com/HeraclesBass/claude-orchestrator-showcase) — The V11 agent framework that powers Iolaus
-- [tos-analyzer](https://github.com/HeraclesBass/tos-analyzer) — Example service in the platform
-- [portfolio](https://github.com/HeraclesBass/portfolio) — Full platform architecture overview
+- [claude-orchestrator-showcase](https://github.com/herakles-dev/claude-orchestrator-showcase) — The V11 agent framework that powers Iolaus
+- [tos-analyzer](https://github.com/herakles-dev/tos-analyzer) — Example service in the platform
+- [portfolio](https://github.com/herakles-dev/portfolio) — Full platform architecture overview
 
 ## Tech Stack
 
